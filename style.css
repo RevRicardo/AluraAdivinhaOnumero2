@@ -92,8 +92,14 @@ body::before {
 
 h1 {
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 72px;
-    padding-bottom: 3rem;
+    font-size: 45px;
+    padding-bottom: 0rem;
+}
+
+h2 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 18px;
+    padding-bottom: 4rem;
 }
 
 p,
@@ -102,7 +108,7 @@ button {
 }
 
 .texto__paragrafo {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 400;
 }
 
@@ -113,7 +119,11 @@ button:disabled {
 @media screen and (max-width: 1250px) {
 
     h1 {
-        font-size: 50px;
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 18px;
     }
 
     .container__botao {
