@@ -1,4 +1,4 @@
-let numeroSecreto = gerarNumeroAleatorio();
+let numeroSecreto = 7;
 let tentativas = 1;
 
 function exibirTextoNaTela(tag, texto) {
@@ -43,7 +43,7 @@ function limparCampo() {
 }
 
 function reiniciarJogo() {
-    numeroSecreto = gerarNumeroAleatorio();
+    numeroSecreto = 7;
     limparCampo();
     tentativas = 1;
     exibirMensagemInicial();
